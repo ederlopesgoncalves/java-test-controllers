@@ -8,7 +8,7 @@ mvn clean install
 
 mvn spring-boot:run
 
-## Test
+## Local Test
 
 http://localhost:8080/cars/1
 
