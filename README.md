@@ -1,14 +1,17 @@
-### Testing Controllers ###
+# Testing Controllers #
 
+## Install Application
 
-# Run Application
+mvn clean install
+
+## Run Application
 
 mvn spring-boot:run
 
-# Test
+## Test
 
 http://localhost:8080/cars/1
 
-# Run Unit Test
+## Run Unit Test
 
 mvn clean test
