@@ -22,3 +22,6 @@ target/
 
 ### VS Code ###
 .vscode/
+
+### Spock ###
+/build/spock-reports

@@ -18,9 +18,9 @@ public class CarService {
         return new Car(
             code,
             "Toyota",
-			"Corolla",
-			2007,
-			2008,
+			"Yaris",
+			2022,
+			2022,
 			"Prata"
 		);
 	}

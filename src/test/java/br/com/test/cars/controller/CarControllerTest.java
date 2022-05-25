@@ -36,8 +36,8 @@ public class CarControllerTest {
 
 		when(this.carService.findCar(1L))
 			.thenReturn(new Car(
-                    1L, "Toytota","Corolla",
-                    2007, 2008,"Prata"));
+                    1L, "Toyota","Yaris",
+                    2022, 2022,"Prata"));
 
 		given()
 			.accept(ContentType.JSON)
