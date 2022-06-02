@@ -15,3 +15,14 @@ http://localhost:8080/cars/1
 ## Run Unit Test
 
 mvn clean test
+
+# Test via Docker
+
+docker build .
+
+docker run -p 8080:8080 cars
+
+### Command
+
+curl http://localhost:8080/cars/10
+
